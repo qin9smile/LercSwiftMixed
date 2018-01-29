@@ -54,6 +54,7 @@
 		9E83BD7A201EE53600077D3C /* Huffman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Huffman.h; sourceTree = "<group>"; };
 		9E83BD7B201EE53600077D3C /* Lerc2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lerc2.cpp; sourceTree = "<group>"; };
 		9E83BD7C201EE53600077D3C /* BitStuffer2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BitStuffer2.cpp; sourceTree = "<group>"; };
+		9E83BD8D201EF8D800077D3C /* LercSwiftMixed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LercSwiftMixed-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 				9E83BD54201EBA2500077D3C /* Main.storyboard */,
 				9E83BD57201EBA2500077D3C /* Info.plist */,
 				9E83BD58201EBA2500077D3C /* LercSwiftMixed.entitlements */,
+				9E83BD8D201EF8D800077D3C /* LercSwiftMixed-Bridging-Header.h */,
 			);
 			path = LercSwiftMixed;
 			sourceTree = "<group>";
@@ -385,6 +387,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gago.LercSwiftMixed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LercSwiftMixed/LercSwiftMixed-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -401,6 +404,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gago.LercSwiftMixed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LercSwiftMixed/LercSwiftMixed-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
