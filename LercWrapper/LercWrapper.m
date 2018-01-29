@@ -13,5 +13,9 @@
 @implementation LercWrapper : NSObject {
 
 }
-
+- (NSImage*)lerc_decode_wrapper:(int)width height:(int)height {
+  NSImage* image = [NSImage alloc];
+  image.size = NSMakeSize(width, height);
+  return image;
+}
 @end

@@ -15,4 +15,6 @@
 @interface LercWrapper : NSObject {
 
 }
+-(NSImage*)lerc_decode_wrapper:(int)width height:(int)height;
+
 @end
