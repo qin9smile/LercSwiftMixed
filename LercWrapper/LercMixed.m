@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <Cocoa/Cocoa.h>
-#import "LercWrapper.h"
+#import "LercMixed.h"
 
 @implementation LercMixed : NSObject {
 
