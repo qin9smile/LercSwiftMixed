@@ -35,6 +35,24 @@ class ViewController: NSViewController {
 
   /// import file button action
   @IBAction private func _importFileButtonDidTapped(_ sender: NSButton) {
+    // init file picker
+    let filePicker: NSOpenPanel! = NSOpenPanel()
+    filePicker.allowsMultipleSelection = false
+    filePicker.canChooseDirectories = false
+    filePicker.canChooseFiles = true
+
+    // open file picker
+    filePicker.runModal()
+
+    // get chosen file url
+    guard let chosenFile = filePicker.url else {
+      print("there has no chosen file")
+      return
+    }
+
+    // show in lercImageView
+    let fileImport = NSImage(contentsOf: chosenFile)
+    lercImageView.image = fileImport
   }
 
   /// export file button action
