@@ -21,7 +21,7 @@
 		9E83BD84201EE53600077D3C /* Huffman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD79201EE53600077D3C /* Huffman.cpp */; };
 		9E83BD85201EE53600077D3C /* Lerc2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD7B201EE53600077D3C /* Lerc2.cpp */; };
 		9E83BD86201EE53600077D3C /* BitStuffer2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD7C201EE53600077D3C /* BitStuffer2.cpp */; };
-		9E83BD92201EF97900077D3C /* LercWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD91201EF97900077D3C /* LercWrapper.m */; };
+		9E83BD92201EF97900077D3C /* LercMixed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD91201EF97900077D3C /* LercMixed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,8 +56,8 @@
 		9E83BD7B201EE53600077D3C /* Lerc2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lerc2.cpp; sourceTree = "<group>"; };
 		9E83BD7C201EE53600077D3C /* BitStuffer2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BitStuffer2.cpp; sourceTree = "<group>"; };
 		9E83BD8D201EF8D800077D3C /* LercSwiftMixed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LercSwiftMixed-Bridging-Header.h"; sourceTree = "<group>"; };
-		9E83BD90201EF94600077D3C /* LercWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LercWrapper.h; sourceTree = "<group>"; };
-		9E83BD91201EF97900077D3C /* LercWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LercWrapper.m; sourceTree = "<group>"; };
+		9E83BD90201EF94600077D3C /* LercMixed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LercMixed.h; sourceTree = "<group>"; };
+		9E83BD91201EF97900077D3C /* LercMixed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LercMixed.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +176,8 @@
 		9E83BD8F201EF93A00077D3C /* LercWrapper */ = {
 			isa = PBXGroup;
 			children = (
-				9E83BD90201EF94600077D3C /* LercWrapper.h */,
-				9E83BD91201EF97900077D3C /* LercWrapper.m */,
+				9E83BD90201EF94600077D3C /* LercMixed.h */,
+				9E83BD91201EF97900077D3C /* LercMixed.m */,
 			);
 			path = LercWrapper;
 			sourceTree = "<group>";
@@ -265,7 +265,7 @@
 				9E83BD80201EE53600077D3C /* Lerc.cpp in Sources */,
 				9E83BD83201EE53600077D3C /* BitMask.cpp in Sources */,
 				9E83BD84201EE53600077D3C /* Huffman.cpp in Sources */,
-				9E83BD92201EF97900077D3C /* LercWrapper.m in Sources */,
+				9E83BD92201EF97900077D3C /* LercMixed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

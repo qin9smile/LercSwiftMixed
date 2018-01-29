@@ -1,5 +1,5 @@
 //
-//  LercWrapper.m
+//  LercMixed.m
 //  LercSwiftMixed
 //
 //  Created by charlotte on 2018/1/29.
@@ -10,7 +10,7 @@
 #import <Cocoa/Cocoa.h>
 #import "LercWrapper.h"
 
-@implementation LercWrapper : NSObject {
+@implementation LercMixed : NSObject {
 
 }
 - (NSImage*)lerc_decode_wrapper:(int)width height:(int)height {
