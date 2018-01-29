@@ -16,5 +16,5 @@
 
 }
 -(NSImage*)lerc_decode_wrapper:(int)width height:(int)height;
-
+-(NSImage*)lerc_decode_wrapper:(NSURL*)contentOfURL;
 @end

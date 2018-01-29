@@ -25,7 +25,7 @@ class ViewController: NSViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-
+    
   }
 
   override var representedObject: Any? {
@@ -54,11 +54,12 @@ class ViewController: NSViewController {
     }
 
     _chosenFileURL = chosenFile
-
+    let lercMixed = LercMixed()
+    let image = lercMixed.lerc_decode_wrapper(chosenFile)
     // show in lercImageView
     let fileImport = NSImage(contentsOf: chosenFile)
     _fileImport = fileImport
-    lercImageView.image = fileImport
+    lercImageView.image = image
   }
 
   /// export file button action
