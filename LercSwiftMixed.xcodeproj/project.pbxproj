@@ -11,7 +11,6 @@
 		9E83BD51201EBA2500077D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD50201EBA2500077D3C /* ViewController.swift */; };
 		9E83BD53201EBA2500077D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E83BD52201EBA2500077D3C /* Assets.xcassets */; };
 		9E83BD56201EBA2500077D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E83BD54201EBA2500077D3C /* Main.storyboard */; };
-		9E83BD5F201EE34200077D3C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9E83BD5E201EE34200077D3C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		9E83BD55201EBA2500077D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E83BD57201EBA2500077D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E83BD58201EBA2500077D3C /* LercSwiftMixed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LercSwiftMixed.entitlements; sourceTree = "<group>"; };
-		9E83BD5E201EE34200077D3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +53,6 @@
 		9E83BD4D201EBA2500077D3C /* LercSwiftMixed */ = {
 			isa = PBXGroup;
 			children = (
-				9E83BD5E201EE34200077D3C /* README.md */,
 				9E83BD4E201EBA2500077D3C /* AppDelegate.swift */,
 				9E83BD50201EBA2500077D3C /* ViewController.swift */,
 				9E83BD52201EBA2500077D3C /* Assets.xcassets */,
@@ -125,7 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E83BD5F201EE34200077D3C /* README.md in Resources */,
 				9E83BD53201EBA2500077D3C /* Assets.xcassets in Resources */,
 				9E83BD56201EBA2500077D3C /* Main.storyboard in Resources */,
 			);
