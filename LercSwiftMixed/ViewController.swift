@@ -10,10 +10,19 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+  // MARK: - Properties
+
+  @IBOutlet weak var importFileButton: NSButton!
+  @IBOutlet weak var exportFileButton: NSButton!
+  @IBOutlet weak var attributeView: NSView!
+  @IBOutlet weak var imageWrapperView: NSView!
+  @IBOutlet weak var lercImageView: NSImageView!
+
+  // MARK: - Life Cycle
+
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    // Do any additional setup after loading the view.
   }
 
   override var representedObject: Any? {
@@ -22,6 +31,14 @@ class ViewController: NSViewController {
     }
   }
 
+  // MARK: - Actions
 
+  /// import file button action
+  @IBAction private func _importFileButtonDidTapped(_ sender: NSButton) {
+  }
+
+  /// export file button action
+  @IBAction private func _exportFileButtonDidTapped(_ sender: NSButton) {
+  }
 }
 
