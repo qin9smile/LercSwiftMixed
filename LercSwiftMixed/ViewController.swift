@@ -69,16 +69,20 @@ class ViewController: NSViewController {
       return
     }
 
+    // init SavePanel
     let savePicker: NSSavePanel! = NSSavePanel()
     savePicker.allowedFileTypes = ["jpg", "png"]
     savePicker.allowsOtherFileTypes = true
     savePicker.isExtensionHidden = false
     savePicker.canSelectHiddenExtension = true
 
+    // open SavePanel
     savePicker.begin { result in
       if result.rawValue == NSApplication.ModalResponse.OK.rawValue {
+        // get export file url
         let exportedFileURL = savePicker.url
 
+        // export file to url
         if let image = self._fileImport {
           if let bits = image.representations.first as? NSBitmapImageRep {
             let data = bits.representation(using: .jpeg, properties: [:])
@@ -87,10 +91,8 @@ class ViewController: NSViewController {
             } catch {
               print(error.localizedDescription)
             }
-
           }
         }
-
       }
     }
   }
