@@ -22,6 +22,7 @@
 		9E83BD85201EE53600077D3C /* Lerc2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD7B201EE53600077D3C /* Lerc2.cpp */; };
 		9E83BD86201EE53600077D3C /* BitStuffer2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD7C201EE53600077D3C /* BitStuffer2.cpp */; };
 		9E83BD92201EF97900077D3C /* LercMixed.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD91201EF97900077D3C /* LercMixed.m */; };
+		9E83BD95201EFDA700077D3C /* LercWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD93201EFDA700077D3C /* LercWrapper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,8 @@
 		9E83BD8D201EF8D800077D3C /* LercSwiftMixed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LercSwiftMixed-Bridging-Header.h"; sourceTree = "<group>"; };
 		9E83BD90201EF94600077D3C /* LercMixed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LercMixed.h; sourceTree = "<group>"; };
 		9E83BD91201EF97900077D3C /* LercMixed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LercMixed.m; sourceTree = "<group>"; };
+		9E83BD93201EFDA700077D3C /* LercWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LercWrapper.cpp; sourceTree = "<group>"; };
+		9E83BD94201EFDA700077D3C /* LercWrapper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LercWrapper.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +181,8 @@
 			children = (
 				9E83BD90201EF94600077D3C /* LercMixed.h */,
 				9E83BD91201EF97900077D3C /* LercMixed.m */,
+				9E83BD93201EFDA700077D3C /* LercWrapper.cpp */,
+				9E83BD94201EFDA700077D3C /* LercWrapper.hpp */,
 			);
 			path = LercWrapper;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 				9E83BD85201EE53600077D3C /* Lerc2.cpp in Sources */,
 				9E83BD51201EBA2500077D3C /* ViewController.swift in Sources */,
 				9E83BD7E201EE53600077D3C /* BitStuffer.cpp in Sources */,
+				9E83BD95201EFDA700077D3C /* LercWrapper.cpp in Sources */,
 				9E83BD4F201EBA2500077D3C /* AppDelegate.swift in Sources */,
 				9E83BD7D201EE53600077D3C /* CntZImage.cpp in Sources */,
 				9E83BD80201EE53600077D3C /* Lerc.cpp in Sources */,

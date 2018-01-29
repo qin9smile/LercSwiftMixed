@@ -9,5 +9,5 @@
 #ifndef LercSwiftMixed_Bridging_Header_h
 #define LercSwiftMixed_Bridging_Header_h
 
-
+#import "LercMixed.h"
 #endif /* LercSwiftMixed_Bridging_Header_h */
