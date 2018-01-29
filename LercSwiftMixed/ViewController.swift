@@ -18,6 +18,9 @@ class ViewController: NSViewController {
   @IBOutlet weak var imageWrapperView: NSView!
   @IBOutlet weak var lercImageView: NSImageView!
 
+  private var _chosenFileURL: URL?
+  private var _fileImport: NSImage?
+
   // MARK: - Life Cycle
 
   override func viewDidLoad() {
@@ -50,13 +53,46 @@ class ViewController: NSViewController {
       return
     }
 
+    _chosenFileURL = chosenFile
+
     // show in lercImageView
     let fileImport = NSImage(contentsOf: chosenFile)
+    _fileImport = fileImport
     lercImageView.image = fileImport
   }
 
   /// export file button action
   @IBAction private func _exportFileButtonDidTapped(_ sender: NSButton) {
+
+    guard _chosenFileURL != nil else {
+      print("there is no chosen file")
+      return
+    }
+
+    let savePicker: NSSavePanel! = NSSavePanel()
+    savePicker.allowedFileTypes = ["jpg", "png"]
+    savePicker.allowsOtherFileTypes = true
+    savePicker.isExtensionHidden = false
+    savePicker.canSelectHiddenExtension = true
+
+    savePicker.begin { result in
+      if result.rawValue == NSApplication.ModalResponse.OK.rawValue {
+        let exportedFileURL = savePicker.url
+
+        if let image = self._fileImport {
+          if let bits = image.representations.first as? NSBitmapImageRep {
+            let data = bits.representation(using: .jpeg, properties: [:])
+            do {
+              try data?.write(to: exportedFileURL!, options: .atomic)
+            } catch {
+              print(error.localizedDescription)
+            }
+
+          }
+        }
+
+      }
+    }
   }
 }
 
