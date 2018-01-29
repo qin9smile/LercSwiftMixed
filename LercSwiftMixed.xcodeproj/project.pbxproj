@@ -11,6 +11,16 @@
 		9E83BD51201EBA2500077D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD50201EBA2500077D3C /* ViewController.swift */; };
 		9E83BD53201EBA2500077D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E83BD52201EBA2500077D3C /* Assets.xcassets */; };
 		9E83BD56201EBA2500077D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E83BD54201EBA2500077D3C /* Main.storyboard */; };
+		9E83BD7D201EE53600077D3C /* CntZImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD62201EE53500077D3C /* CntZImage.cpp */; };
+		9E83BD7E201EE53600077D3C /* BitStuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD63201EE53500077D3C /* BitStuffer.cpp */; };
+		9E83BD7F201EE53600077D3C /* TImage.hpp.gch in Resources */ = {isa = PBXBuildFile; fileRef = 9E83BD66201EE53500077D3C /* TImage.hpp.gch */; };
+		9E83BD80201EE53600077D3C /* Lerc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD6A201EE53600077D3C /* Lerc.cpp */; };
+		9E83BD81201EE53600077D3C /* Lerc_c_api_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD6B201EE53600077D3C /* Lerc_c_api_impl.cpp */; };
+		9E83BD82201EE53600077D3C /* RLE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD71201EE53600077D3C /* RLE.cpp */; };
+		9E83BD83201EE53600077D3C /* BitMask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD72201EE53600077D3C /* BitMask.cpp */; };
+		9E83BD84201EE53600077D3C /* Huffman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD79201EE53600077D3C /* Huffman.cpp */; };
+		9E83BD85201EE53600077D3C /* Lerc2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD7B201EE53600077D3C /* Lerc2.cpp */; };
+		9E83BD86201EE53600077D3C /* BitStuffer2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E83BD7C201EE53600077D3C /* BitStuffer2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +31,29 @@
 		9E83BD55201EBA2500077D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E83BD57201EBA2500077D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E83BD58201EBA2500077D3C /* LercSwiftMixed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LercSwiftMixed.entitlements; sourceTree = "<group>"; };
+		9E83BD62201EE53500077D3C /* CntZImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CntZImage.cpp; sourceTree = "<group>"; };
+		9E83BD63201EE53500077D3C /* BitStuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BitStuffer.cpp; sourceTree = "<group>"; };
+		9E83BD64201EE53500077D3C /* TImage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TImage.hpp; sourceTree = "<group>"; };
+		9E83BD65201EE53500077D3C /* CntZImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CntZImage.h; sourceTree = "<group>"; };
+		9E83BD66201EE53500077D3C /* TImage.hpp.gch */ = {isa = PBXFileReference; lastKnownFileType = file; path = TImage.hpp.gch; sourceTree = "<group>"; };
+		9E83BD67201EE53500077D3C /* BitStuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitStuffer.h; sourceTree = "<group>"; };
+		9E83BD68201EE53500077D3C /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		9E83BD6A201EE53600077D3C /* Lerc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lerc.cpp; sourceTree = "<group>"; };
+		9E83BD6B201EE53600077D3C /* Lerc_c_api_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lerc_c_api_impl.cpp; sourceTree = "<group>"; };
+		9E83BD6C201EE53600077D3C /* Lerc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lerc.h; sourceTree = "<group>"; };
+		9E83BD6E201EE53600077D3C /* RLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLE.h; sourceTree = "<group>"; };
+		9E83BD6F201EE53600077D3C /* BitMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitMask.h; sourceTree = "<group>"; };
+		9E83BD70201EE53600077D3C /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		9E83BD71201EE53600077D3C /* RLE.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RLE.cpp; sourceTree = "<group>"; };
+		9E83BD72201EE53600077D3C /* BitMask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BitMask.cpp; sourceTree = "<group>"; };
+		9E83BD74201EE53600077D3C /* Lerc_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lerc_types.h; sourceTree = "<group>"; };
+		9E83BD75201EE53600077D3C /* Lerc_c_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lerc_c_api.h; sourceTree = "<group>"; };
+		9E83BD77201EE53600077D3C /* Lerc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lerc2.h; sourceTree = "<group>"; };
+		9E83BD78201EE53600077D3C /* BitStuffer2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitStuffer2.h; sourceTree = "<group>"; };
+		9E83BD79201EE53600077D3C /* Huffman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Huffman.cpp; sourceTree = "<group>"; };
+		9E83BD7A201EE53600077D3C /* Huffman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Huffman.h; sourceTree = "<group>"; };
+		9E83BD7B201EE53600077D3C /* Lerc2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lerc2.cpp; sourceTree = "<group>"; };
+		9E83BD7C201EE53600077D3C /* BitStuffer2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BitStuffer2.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +70,7 @@
 		9E83BD42201EBA2500077D3C = {
 			isa = PBXGroup;
 			children = (
+				9E83BD60201EE52C00077D3C /* Lerc */,
 				9E83BD4D201EBA2500077D3C /* LercSwiftMixed */,
 				9E83BD4C201EBA2500077D3C /* Products */,
 			);
@@ -61,6 +95,76 @@
 				9E83BD58201EBA2500077D3C /* LercSwiftMixed.entitlements */,
 			);
 			path = LercSwiftMixed;
+			sourceTree = "<group>";
+		};
+		9E83BD60201EE52C00077D3C /* Lerc */ = {
+			isa = PBXGroup;
+			children = (
+				9E83BD6D201EE53600077D3C /* Common */,
+				9E83BD73201EE53600077D3C /* Include */,
+				9E83BD69201EE53600077D3C /* Lerc */,
+				9E83BD61201EE53500077D3C /* Lerc1Decode */,
+				9E83BD76201EE53600077D3C /* Lerc2 */,
+			);
+			path = Lerc;
+			sourceTree = "<group>";
+		};
+		9E83BD61201EE53500077D3C /* Lerc1Decode */ = {
+			isa = PBXGroup;
+			children = (
+				9E83BD62201EE53500077D3C /* CntZImage.cpp */,
+				9E83BD63201EE53500077D3C /* BitStuffer.cpp */,
+				9E83BD64201EE53500077D3C /* TImage.hpp */,
+				9E83BD65201EE53500077D3C /* CntZImage.h */,
+				9E83BD66201EE53500077D3C /* TImage.hpp.gch */,
+				9E83BD67201EE53500077D3C /* BitStuffer.h */,
+				9E83BD68201EE53500077D3C /* Image.h */,
+			);
+			path = Lerc1Decode;
+			sourceTree = "<group>";
+		};
+		9E83BD69201EE53600077D3C /* Lerc */ = {
+			isa = PBXGroup;
+			children = (
+				9E83BD6A201EE53600077D3C /* Lerc.cpp */,
+				9E83BD6B201EE53600077D3C /* Lerc_c_api_impl.cpp */,
+				9E83BD6C201EE53600077D3C /* Lerc.h */,
+			);
+			path = Lerc;
+			sourceTree = "<group>";
+		};
+		9E83BD6D201EE53600077D3C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9E83BD6E201EE53600077D3C /* RLE.h */,
+				9E83BD6F201EE53600077D3C /* BitMask.h */,
+				9E83BD70201EE53600077D3C /* Defines.h */,
+				9E83BD71201EE53600077D3C /* RLE.cpp */,
+				9E83BD72201EE53600077D3C /* BitMask.cpp */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9E83BD73201EE53600077D3C /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				9E83BD74201EE53600077D3C /* Lerc_types.h */,
+				9E83BD75201EE53600077D3C /* Lerc_c_api.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		9E83BD76201EE53600077D3C /* Lerc2 */ = {
+			isa = PBXGroup;
+			children = (
+				9E83BD77201EE53600077D3C /* Lerc2.h */,
+				9E83BD78201EE53600077D3C /* BitStuffer2.h */,
+				9E83BD79201EE53600077D3C /* Huffman.cpp */,
+				9E83BD7A201EE53600077D3C /* Huffman.h */,
+				9E83BD7B201EE53600077D3C /* Lerc2.cpp */,
+				9E83BD7C201EE53600077D3C /* BitStuffer2.cpp */,
+			);
+			path = Lerc2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +228,7 @@
 			files = (
 				9E83BD53201EBA2500077D3C /* Assets.xcassets in Resources */,
 				9E83BD56201EBA2500077D3C /* Main.storyboard in Resources */,
+				9E83BD7F201EE53600077D3C /* TImage.hpp.gch in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +239,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E83BD86201EE53600077D3C /* BitStuffer2.cpp in Sources */,
+				9E83BD82201EE53600077D3C /* RLE.cpp in Sources */,
+				9E83BD81201EE53600077D3C /* Lerc_c_api_impl.cpp in Sources */,
+				9E83BD85201EE53600077D3C /* Lerc2.cpp in Sources */,
 				9E83BD51201EBA2500077D3C /* ViewController.swift in Sources */,
+				9E83BD7E201EE53600077D3C /* BitStuffer.cpp in Sources */,
 				9E83BD4F201EBA2500077D3C /* AppDelegate.swift in Sources */,
+				9E83BD7D201EE53600077D3C /* CntZImage.cpp in Sources */,
+				9E83BD80201EE53600077D3C /* Lerc.cpp in Sources */,
+				9E83BD83201EE53600077D3C /* BitMask.cpp in Sources */,
+				9E83BD84201EE53600077D3C /* Huffman.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
