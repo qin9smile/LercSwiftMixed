@@ -18,4 +18,10 @@
   image.size = NSMakeSize(width, height);
   return image;
 }
+
+- (NSImage*)lerc_decode_wrapper:(NSURL*)contentOfURL {
+
+  NSImage* image = [[NSImage alloc] initByReferencingURL:contentOfURL];
+  return image;
+}
 @end
